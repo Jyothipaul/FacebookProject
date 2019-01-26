@@ -12,10 +12,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class FacebookStepDef {
 
     WebDriver myDriver;
-    WebElement emailid;
-    WebElement password;
-    WebElement firstName;
-    WebElement secondName;
 
     @Given("^As a chrome user$")
     public void as_a_chrome_user() throws Throwable {
@@ -37,10 +33,10 @@ public class FacebookStepDef {
 
     @Then("^I see the Facebook Home page$")
     public void i_see_the_Facebook_Home_page() throws Throwable {
-        emailid = myDriver.findElement(By.id("email"));
-        password = myDriver.findElement(By.id("pass"));
-        firstName = myDriver.findElement(By.id("u_0_j"));
-        secondName = myDriver.findElement(By.id("u_0_l"));
+        WebElement emailid = myDriver.findElement(By.id("email"));
+        WebElement password = myDriver.findElement(By.id("pass"));
+        WebElement firstName = myDriver.findElement(By.id("u_0_j"));
+        WebElement secondName = myDriver.findElement(By.id("u_0_l"));
         Assert.assertEquals(true,emailid.isDisplayed());
         Assert.assertEquals(true,password.isDisplayed());
         Assert.assertEquals(true,firstName.isDisplayed());
