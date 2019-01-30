@@ -18,8 +18,11 @@ public class FacebookPO {
 
          emailid = myDriver.findElement(By.id("email"));
          password = myDriver.findElement(By.id("pass"));
-         login = myDriver.findElement(By.id("loginbutton"));
 //         firstName = myDriver.findElement(By.id("u_0_j"));
 //         surnameName = myDriver.findElement(By.id("u_0_l"));
+    }
+
+    public void FBPO(WebDriver myDriver){
+        login = myDriver.findElement(By.id("loginbutton"));
     }
 }
