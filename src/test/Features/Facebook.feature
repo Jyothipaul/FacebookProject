@@ -4,5 +4,6 @@ Feature: Find elements using ID
     Given As a chrome user
     When I access Facebook page
     Then I see the Facebook Home page
-    And I click on Forgotten Account Link
+#    And I click on Forgotten Account Link
+    And I select Day Option
     And I quit browser

@@ -8,6 +8,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import utilities.CapScreenSht;
 import utilities.ConfigFileReader;
 
@@ -15,13 +16,15 @@ public class FacebookStepDef {
 
 //    as its static its flexible
     static WebDriver myDriver;
+    Select daySelect;
+    Select monthSelect;
+    Select yearSelect;
 
 //    This gives error as the driver is not yet initialised.
 //    FacebookPO facebookPO = new FacebookPO();
     FacebookPO fPO  = new FacebookPO();
     ConfigFileReader cFR = new ConfigFileReader();
     CapScreenSht cSS = new CapScreenSht();
-
 
     @Given("^As a chrome user$")
     public void as_a_chrome_user() throws Throwable {
@@ -47,7 +50,6 @@ public class FacebookStepDef {
         //Identify where is the driver or contest of the driver
 //        fPO.PO(myDriver);
         fPO.FacebookPO(myDriver);
-
         fPO.emailid.isDisplayed();
         System.out.println("Boolean value of isDisplayed: " + fPO.emailid.isDisplayed());
         fPO.emailid.sendKeys("selenium@gmail.com");
@@ -55,11 +57,7 @@ public class FacebookStepDef {
         fPO.radioButton.click();
         System.out.println("Radio Button Selected\n");
 
-        cSS.capScrSht(myDriver, "Scenario_");
-
 //        fPO.FBPO(myDriver);
-//        fPO.login.click();
-
     }
 
     @And("^I click on Forgotten Account Link$")
@@ -69,6 +67,23 @@ public class FacebookStepDef {
         cSS.capScrSht(myDriver, "Scenario_");
         myDriver.navigate().back();
         Assert.assertEquals(true,myDriver.getTitle().contains("Facebook"));
+    }
+
+    @And("^I select Day Option$")
+    public void i_select_Day_Option() throws Throwable{
+        daySelect = new Select(fPO.dayOption);
+        daySelect.selectByValue("1");
+
+        monthSelect = new Select(fPO.monthOption);
+        monthSelect.selectByValue("7");
+
+        yearSelect = new Select(fPO.yearOption);
+        yearSelect.selectByValue("1982");
+
+//        Assert.assertEquals(true, fPO.dayOption.isDisplayed());
+//        fPO.dayOption.isDisplayed();
+
+//        cSS.capScrSht(myDriver, "Scenario_");
     }
 
     @And("^I quit browser$")

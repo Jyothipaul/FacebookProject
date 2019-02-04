@@ -18,6 +18,7 @@ public class CapScreenSht {
 
     public void capScrSht(WebDriver driver, String screenShotName){
 
+//      Typecast screenshot
         TakesScreenshot ts = (TakesScreenshot)driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         try{
