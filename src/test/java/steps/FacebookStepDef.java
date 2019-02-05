@@ -11,11 +11,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import utilities.CapScreenSht;
 import utilities.ConfigFileReader;
+import static steps.Hooks.cFR;
+import static steps.Hooks.myDriver;
 
 public class FacebookStepDef {
 
-//    as its static its flexible
-    static WebDriver myDriver;
     Select daySelect;
     Select monthSelect;
     Select yearSelect;
@@ -23,21 +23,18 @@ public class FacebookStepDef {
 //    This gives error as the driver is not yet initialised.
 //    FacebookPO facebookPO = new FacebookPO();
     FacebookPO fPO  = new FacebookPO();
-    ConfigFileReader cFR = new ConfigFileReader();
     CapScreenSht cSS = new CapScreenSht();
 
     @Given("^As a chrome user$")
     public void as_a_chrome_user() throws Throwable {
-//        System.setProperty("webdriver.chrome.driver","C:\\SeleniumSetup\\chromedriver.exe");
+
         System.setProperty("webdriver.chrome.driver",cFR.getDriverPath());
-        myDriver = new ChromeDriver();
         System.out.println("Chrome browser launched");
     }
 
     @When("^I access Facebook page$")
     public void i_access_Facebook_page() throws Throwable {
 
-//        myDriver.get("https://www.facebook.com/");
         myDriver.manage().window().maximize();
         myDriver.get(cFR.getApplicationUrl());
         System.out.println("\nFacebook page launched in Chrome browser");
@@ -64,9 +61,9 @@ public class FacebookStepDef {
     public void i_click_on_Forgotten_Account() throws Throwable{
         fPO.forgottenAccount.click();
         System.out.println("Click on Forgotten Account\n");
-        cSS.capScrSht(myDriver, "Scenario_");
         myDriver.navigate().back();
         Assert.assertEquals(true,myDriver.getTitle().contains("Facebook"));
+//        cSS.capScrSht(myDriver, "Scenario_");
     }
 
     @And("^I select Day Option$")
@@ -80,10 +77,13 @@ public class FacebookStepDef {
         yearSelect = new Select(fPO.yearOption);
         yearSelect.selectByValue("1982");
 
-//        Assert.assertEquals(true, fPO.dayOption.isDisplayed());
-//        fPO.dayOption.isDisplayed();
-
 //        cSS.capScrSht(myDriver, "Scenario_");
+    }
+
+    @And("^I perform key actions$")
+        public void I_perform_key_actions() throws Throwable{
+        fPO.myActions(myDriver);
+        cSS.capScrSht(myDriver, "Scenario_");
     }
 
     @And("^I quit browser$")

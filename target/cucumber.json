@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4106791429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Find the Id\u0027s for Facebook page",
+        "description": "",
+        "id": "find-elements-using-id;find-the-id\u0027s-for-facebook-page",
+        "after": [
+          {
+            "result": {
+              "duration": 732947327,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 98681831,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "As a chrome user",
+            "match": {
+              "location": "FacebookStepDef.as_a_chrome_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3348618301,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I access Facebook page",
+            "match": {
+              "location": "FacebookStepDef.i_access_Facebook_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 626758144,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I see the Facebook Home page",
+            "match": {
+              "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 879211570,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I perform key actions",
+            "match": {
+              "location": "FacebookStepDef.I_perform_key_actions()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Find elements using ID",
+    "description": "",
+    "id": "find-elements-using-id",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]

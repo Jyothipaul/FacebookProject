@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1792741a-fd54-4990-ac33-bfac80377eb8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Features/Facebook.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Features/Facebook.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/FacebookPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FacebookPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/FacebookStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/FacebookStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/CapScreenSht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/CapScreenSht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/FacebookPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/FacebookPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/FacebookStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/FacebookStepDef.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +24,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Features/Facebook.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/FacebookStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+            <state relative-caret-position="349">
+              <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/FacebookPO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="349">
+              <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1190#1191#0" expanded="true" />
@@ -62,6 +77,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CapScreenSht</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,8 +93,10 @@
         <option value="$PROJECT_DIR$/src/test/java/utils/Config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ConfigFileReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/CapScreenSht.java" />
-        <option value="$PROJECT_DIR$/src/test/Features/Facebook.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/FacebookPO.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
+        <option value="$PROJECT_DIR$/src/test/Features/Facebook.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/FacebookStepDef.java" />
       </list>
     </option>
@@ -132,6 +154,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FacebookProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FacebookProject" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,8 +168,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549313430605" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Facebook" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549326393265" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaunchURL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -161,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Facebook">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Facebook" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/Features/Facebook.feature" />
@@ -199,12 +226,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FacebookProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="utilities" />
+      <option name="MAIN_CLASS_NAME" value="utilities.TestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: Find the Id's for Facebook page" />
       <item itemvalue="Cucumber java.Feature: Facebook" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Feature: Facebook" />
         <item itemvalue="Cucumber java.Scenario: Find the Id's for Facebook page" />
       </list>
@@ -224,42 +267,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 11m 00s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 11m 38s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 13m 44s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 18m 52s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 14m 15s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 19m 33s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 16m 03s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 20m 21s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 19m 20s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 20m 56s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 19m 46s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 22m 56s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 21m 44s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 24m 12s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 30m 25s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 24m 45s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 35m 21s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 25m 26s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Facebook - 2019.02.04 at 20h 44m 34s.xml">
-      <configuration name="Feature: Facebook" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TestRunner - 2019.02.05 at 00h 26m 41s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -268,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43342775" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,25 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/CapScreenSht.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ConfigFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -406,17 +430,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Features/Facebook.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/CapScreenSht.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/FacebookPO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="349">
+          <caret line="58" column="28" lean-forward="true" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1190#1191#0" expanded="true" />
@@ -425,10 +484,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Features/Facebook.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/FacebookStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        <state relative-caret-position="349">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
