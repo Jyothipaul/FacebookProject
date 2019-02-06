@@ -24,7 +24,6 @@ public class FacebookPO {
 
     public void FacebookPO(WebDriver myDriver){
 
-//         firstName = myDriver.findElement(By.id("u_0_j"));
          firstName = myDriver.findElement(By.xpath("//input[@name='firstname']"));
          emailid = myDriver.findElement(By.xpath("//input[@id='email']"));
          password = myDriver.findElement(By.xpath("//input[@type='password' and @name='pass']"));
@@ -35,6 +34,7 @@ public class FacebookPO {
         monthOption = myDriver.findElement(By.xpath("//select[@id='month']"));
         yearOption = myDriver.findElement(By.xpath("//select[@id='year']"));
 
+//         firstName = myDriver.findElement(By.id("u_0_j"));
 //        dayOption = myDriver.findElement(By.id("day"));
 //        dayOption = myDriver.findElement(By.xpath("//select[@id='day']"));
 //        password = myDriver.findElement(By.id("pass"));
