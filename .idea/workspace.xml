@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1792741a-fd54-4990-ac33-bfac80377eb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_19-41-39.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_19-44-51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_19-55-52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-05-09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-07-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-09-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-09-44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-17-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-18-57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-19-47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-20-41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-27-53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-36-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-38-20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-48-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Screenshots/Scenario_2019-02-07_20-52-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports.html/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-utilities.TestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/utilities.TestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Features/Facebook.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Features/Facebook.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Features/Santander.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Features/Santander.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SantanderPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SantanderPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SantanderStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SantanderStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SantanderPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SantanderPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SantanderStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SantanderStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/TestRunner.class" afterDir="false" />
-    </list>
+    <list default="true" id="1792741a-fd54-4990-ac33-bfac80377eb8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -154,7 +108,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
   </component>
@@ -254,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549657488628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549659288136" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LaunchURL" />
   </component>
   <component name="RecentsManager">
