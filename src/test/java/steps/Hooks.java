@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import utilities.ConfigFileReader;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
 
 //    as its static its flexible
@@ -17,6 +19,7 @@ public class Hooks {
 //        System.setProperty("webdriver.chrome.driver","C:\\SeleniumSetup\\chromedriver.exe");
         System.setProperty("webdriver.chrome.driver",cFR.getDriverPath());
         myDriver = new ChromeDriver();
+        myDriver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
     }
 
     @After

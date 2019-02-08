@@ -4,9 +4,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
-
 import java.util.ArrayList;
-
+import static java.lang.Thread.*;
 import static steps.Hooks.cFR;
 import static steps.Hooks.myDriver;
 
@@ -32,8 +31,11 @@ public class SantanderStepDef {
     @Then("^I click on Online Banking link$")
     public void i_click_on_Online_Banking_link() throws Throwable {
         sPO.onlineBankingVideo.click();
-        sPO.termsAndConditions.click();
 
+//        Thread waits
+//        sleep(1000);
+
+        sPO.termsAndConditions.click();
         tabs2 = new ArrayList<String>(myDriver.getWindowHandles());
 
 //        tabs2.add(myDriver.getWindowHandle());
