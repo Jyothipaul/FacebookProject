@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import utilities.CapScreenSht;
 import utilities.ConfigFileReader;
+import utilities.Log;
+
 import static steps.Hooks.cFR;
 import static steps.Hooks.myDriver;
 
@@ -30,6 +32,7 @@ public class FacebookStepDef {
 
         System.setProperty("webdriver.chrome.driver",cFR.getDriverPath());
         System.out.println("Chrome browser launched");
+        Log.info("I am in Facebook GIVEN");
     }
 
     @When("^I access Facebook page$")
@@ -39,6 +42,7 @@ public class FacebookStepDef {
         myDriver.get(cFR.getApplicationUrl());
         System.out.println("\nFacebook page launched in Chrome browser");
         System.out.println("Page Title: " + myDriver.getTitle() + "\n");
+        Log.info("I am in Facebook WHEN");
     }
 
     @Then("^I see the Facebook Home page$")
@@ -53,6 +57,7 @@ public class FacebookStepDef {
         System.out.println("EmailId entered in text box\n");
         fPO.radioButton.click();
         System.out.println("Radio Button Selected\n");
+        Log.info("I am in Facebook THEN");
 
 //        fPO.FBPO(myDriver);
     }

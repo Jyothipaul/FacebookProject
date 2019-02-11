@@ -4,6 +4,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import utilities.Log;
+
 import java.util.ArrayList;
 import static java.lang.Thread.*;
 import static steps.Hooks.cFR;
@@ -17,6 +19,7 @@ public class SantanderStepDef {
     @Given("^As a Santander user$")
     public void as_a_Santander_user() throws Throwable {
         System.out.println("Chrome browser launched"+ "\n");
+        Log.info("I am in Santander GIVEN");
     }
 
     @When("^I launch Santander website$")
@@ -25,6 +28,7 @@ public class SantanderStepDef {
         sPO.SantanderPO(myDriver);
         if(sPO.homePagePopUp.isDisplayed()){
             sPO.popUpClose.click();
+            Log.info("I am in Santander WHEN");
         }
     }
 
@@ -44,6 +48,8 @@ public class SantanderStepDef {
             myDriver.switchTo().window(h);
             System.out.println("Page Title: " + myDriver.switchTo().window(h).getTitle() + "\n");
         }
+
+        Log.info("I am in Santander THEN");
     }
 
 }
