@@ -1,79 +1,103 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Facebook.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Facebook Login Page.feature");
 formatter.feature({
   "line": 1,
-  "name": "Find elements using ID",
+  "name": "Facebook Login Page",
   "description": "",
-  "id": "find-elements-using-id",
+  "id": "facebook-login-page",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 9175245835,
+  "duration": 4318980278,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 22,
+  "line": 33,
   "name": "Find the Id\u0027s for Facebook page",
   "description": "",
-  "id": "find-elements-using-id;find-the-id\u0027s-for-facebook-page",
+  "id": "facebook-login-page;find-the-id\u0027s-for-facebook-page",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 21,
+      "line": 32,
       "name": "@test"
     }
   ]
 });
 formatter.step({
-  "line": 23,
+  "line": 34,
   "name": "As a chrome user",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 24,
-  "name": "I access Facebook page",
+  "line": 35,
+  "name": "I launch Facebook page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 25,
+  "line": 36,
   "name": "I see the Facebook Home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 26,
+  "line": 37,
   "name": "I perform key actions",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 38,
+  "name": "I select Day Option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "I click on Forgotten Account Link",
   "keyword": "And "
 });
 formatter.match({
   "location": "FacebookStepDef.as_a_chrome_user()"
 });
 formatter.result({
-  "duration": 230241543,
+  "duration": 129499347,
   "status": "passed"
 });
 formatter.match({
-  "location": "FacebookStepDef.i_access_Facebook_page()"
+  "location": "FacebookStepDef.i_launch_Facebook_page()"
 });
 formatter.result({
-  "duration": 3465549425,
+  "duration": 2273822079,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
 });
 formatter.result({
-  "duration": 637564397,
+  "duration": 21703852,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.I_perform_key_actions()"
 });
 formatter.result({
-  "duration": 905428467,
+  "duration": 624138043,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_select_Day_Option()"
+});
+formatter.result({
+  "duration": 349062208,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_click_on_Forgotten_Account()"
+});
+formatter.result({
+  "duration": 1587808271,
   "status": "passed"
 });
 formatter.after({
-  "duration": 692987876,
+  "duration": 753749875,
   "status": "passed"
 });
 });

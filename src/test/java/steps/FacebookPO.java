@@ -44,8 +44,10 @@ public class FacebookPO {
     }
 
     public void FBPO(WebDriver myDriver){
+
         login.click();
     }
+
     public void myActions(WebDriver driver){
 
         Actions actions = new Actions(driver);

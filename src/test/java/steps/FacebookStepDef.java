@@ -29,25 +29,27 @@ public class FacebookStepDef {
 
     @Given("^As a chrome user$")
     public void as_a_chrome_user() throws Throwable {
-
-        System.setProperty("webdriver.chrome.driver",cFR.getDriverPath());
+//        System.setProperty("webdriver.chrome.driver",cFR.getDriverPath());
         System.out.println("Chrome browser launched");
         Log.info("I am in Facebook GIVEN");
     }
 
-    @When("^I access Facebook page$")
-    public void i_access_Facebook_page() throws Throwable {
-
+    @When("^I launch Facebook page$")
+    public void i_launch_Facebook_page() throws Throwable {
 //        myDriver.manage().window().maximize();
         myDriver.get(cFR.getApplicationUrl());
         System.out.println("\nFacebook page launched in Chrome browser");
-        System.out.println("Page Title: " + myDriver.getTitle() + "\n");
         Log.info("I am in Facebook WHEN");
     }
 
     @Then("^I see the Facebook Home page$")
     public void i_see_the_Facebook_Home_page() throws Throwable {
+        Assert.assertEquals(true,myDriver.getTitle().contains("Facebook"));
+        System.out.println("Page Title: " + myDriver.getTitle() + "\n");
+    }
 
+    @Then("^I enter email address$")
+    public void i_enter_email_address() throws Throwable {
         //Identify where is the driver or contest of the driver
 //        fPO.PO(myDriver);
         fPO.FacebookPO(myDriver);
@@ -58,16 +60,21 @@ public class FacebookStepDef {
         fPO.radioButton.click();
         System.out.println("Radio Button Selected\n");
         Log.info("I am in Facebook THEN");
-
+//        cSS.capScrSht(myDriver, "Scenario_");
 //        fPO.FBPO(myDriver);
     }
 
     @And("^I click on Forgotten Account Link$")
     public void i_click_on_Forgotten_Account() throws Throwable{
+        fPO.FacebookPO(myDriver);
         fPO.forgottenAccount.click();
-        System.out.println("Click on Forgotten Account\n");
-        myDriver.navigate().back();
-        Assert.assertEquals(true,myDriver.getTitle().contains("Facebook"));
+        System.out.println("Clicked on Forgotten Account\n");
+//        cSS.capScrSht(myDriver, "Scenario_");
+    }
+
+    @And("^click on back button$")
+    public void click_on_back_button() throws Throwable{
+          myDriver.navigate().back();
 //        cSS.capScrSht(myDriver, "Scenario_");
     }
 
@@ -87,8 +94,9 @@ public class FacebookStepDef {
 
     @And("^I perform key actions$")
         public void I_perform_key_actions() throws Throwable{
+        fPO.FacebookPO(myDriver);
         fPO.myActions(myDriver);
-        cSS.capScrSht(myDriver, "Scenario_");
+//        cSS.capScrSht(myDriver, "Scenario_");
     }
 
     @And("^I quit browser$")
