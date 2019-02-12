@@ -38,7 +38,7 @@ public class FacebookStepDef {
     @When("^I access Facebook page$")
     public void i_access_Facebook_page() throws Throwable {
 
-        myDriver.manage().window().maximize();
+//        myDriver.manage().window().maximize();
         myDriver.get(cFR.getApplicationUrl());
         System.out.println("\nFacebook page launched in Chrome browser");
         System.out.println("Page Title: " + myDriver.getTitle() + "\n");
