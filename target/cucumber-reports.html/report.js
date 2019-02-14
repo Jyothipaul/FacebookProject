@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4318980278,
+  "duration": 4563188842,
   "status": "passed"
 });
 formatter.scenario({
@@ -58,46 +58,46 @@ formatter.match({
   "location": "FacebookStepDef.as_a_chrome_user()"
 });
 formatter.result({
-  "duration": 129499347,
+  "duration": 124221996,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_launch_Facebook_page()"
 });
 formatter.result({
-  "duration": 2273822079,
+  "duration": 1745955571,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
 });
 formatter.result({
-  "duration": 21703852,
+  "duration": 24791031,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.I_perform_key_actions()"
 });
 formatter.result({
-  "duration": 624138043,
+  "duration": 641894247,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_select_Day_Option()"
 });
 formatter.result({
-  "duration": 349062208,
+  "duration": 347602367,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_click_on_Forgotten_Account()"
 });
 formatter.result({
-  "duration": 1587808271,
+  "duration": 1582667215,
   "status": "passed"
 });
 formatter.after({
-  "duration": 753749875,
+  "duration": 718217762,
   "status": "passed"
 });
 });

@@ -1,7 +1,10 @@
 Feature: Facebook Login Page
 
+  Background: As a chrome user
+
+
   Scenario: Access Facebook page
-    Given As a chrome user
+#    Given As a chrome user
     When I launch Facebook page
     Then I see the Facebook Home page
 
