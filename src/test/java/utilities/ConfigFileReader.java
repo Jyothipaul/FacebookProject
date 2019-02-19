@@ -51,4 +51,10 @@ public class ConfigFileReader {
         else throw new RuntimeException("url not specified in the Configuration.properties file.");
     }
 
+    public String getSpreadsheetPath() {
+        String spreadsheetPath = prop.getProperty("spreadsheetPath");
+        if(spreadsheetPath != null) return spreadsheetPath;
+        else throw new RuntimeException("spreadsheetPath not specified in the Configuration.properties file.");
+    }
+
 }

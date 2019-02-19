@@ -15,7 +15,7 @@ public class Hooks {
 
 //    as its static its flexible
     static WebDriver myDriver;
-    static ConfigFileReader cFR = new ConfigFileReader();
+    public static ConfigFileReader cFR = new ConfigFileReader();
     static ChromeOptions options;
 
 

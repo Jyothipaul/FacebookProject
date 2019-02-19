@@ -1,10 +1,9 @@
 Feature: Facebook Login Page
 
-  Background: As a chrome user
-
+#  Background: Given As a chrome user
 
   Scenario: Access Facebook page
-#    Given As a chrome user
+    Given As a chrome user
     When I launch Facebook page
     Then I see the Facebook Home page
 
@@ -32,7 +31,6 @@ Feature: Facebook Login Page
     Then I see the Facebook Home page
     And I perform key actions
 
-  @test
   Scenario: Find the Id's for Facebook page
     Given As a chrome user
     When I launch Facebook page
@@ -41,3 +39,16 @@ Feature: Facebook Login Page
     And I select Day Option
     And I click on Forgotten Account Link
 #    And I quit browser
+
+  @test
+  Scenario Outline: Reading from spreadsheet
+    Given As a chrome user
+    And I launch Facebook page
+    When I see the Facebook Home page
+    Then I enter "<email>" from spreadsheet
+
+    Examples:
+    |email|
+    | Email1    |
+    | Email2    |
+    | Email3    |

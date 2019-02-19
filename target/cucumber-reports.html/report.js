@@ -6,98 +6,318 @@ formatter.feature({
   "id": "facebook-login-page",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 4563188842,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 33,
-  "name": "Find the Id\u0027s for Facebook page",
+formatter.scenarioOutline({
+  "comments": [
+    {
+      "line": 41,
+      "value": "#    And I quit browser"
+    }
+  ],
+  "line": 44,
+  "name": "Reading from spreadsheet",
   "description": "",
-  "id": "facebook-login-page;find-the-id\u0027s-for-facebook-page",
-  "type": "scenario",
-  "keyword": "Scenario",
+  "id": "facebook-login-page;reading-from-spreadsheet",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 32,
+      "line": 43,
       "name": "@test"
     }
   ]
 });
 formatter.step({
-  "line": 34,
+  "line": 45,
   "name": "As a chrome user",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 35,
+  "line": 46,
   "name": "I launch Facebook page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "I see the Facebook Home page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 36,
-  "name": "I see the Facebook Home page",
+  "line": 48,
+  "name": "I enter \"\u003cemail\u003e\" from spreadsheet",
   "keyword": "Then "
 });
+formatter.examples({
+  "line": 50,
+  "name": "",
+  "description": "",
+  "id": "facebook-login-page;reading-from-spreadsheet;",
+  "rows": [
+    {
+      "cells": [
+        "email"
+      ],
+      "line": 51,
+      "id": "facebook-login-page;reading-from-spreadsheet;;1"
+    },
+    {
+      "cells": [
+        "Email1"
+      ],
+      "line": 52,
+      "id": "facebook-login-page;reading-from-spreadsheet;;2"
+    },
+    {
+      "cells": [
+        "Email2"
+      ],
+      "line": 53,
+      "id": "facebook-login-page;reading-from-spreadsheet;;3"
+    },
+    {
+      "cells": [
+        "Email3"
+      ],
+      "line": 54,
+      "id": "facebook-login-page;reading-from-spreadsheet;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 4428465512,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 52,
+  "name": "Reading from spreadsheet",
+  "description": "",
+  "id": "facebook-login-page;reading-from-spreadsheet;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 43,
+      "name": "@test"
+    }
+  ]
+});
 formatter.step({
-  "line": 37,
-  "name": "I perform key actions",
+  "line": 45,
+  "name": "As a chrome user",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 46,
+  "name": "I launch Facebook page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
-  "name": "I select Day Option",
-  "keyword": "And "
+  "line": 47,
+  "name": "I see the Facebook Home page",
+  "keyword": "When "
 });
 formatter.step({
-  "line": 39,
-  "name": "I click on Forgotten Account Link",
-  "keyword": "And "
+  "line": 48,
+  "name": "I enter \"Email1\" from spreadsheet",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
 });
 formatter.match({
   "location": "FacebookStepDef.as_a_chrome_user()"
 });
 formatter.result({
-  "duration": 124221996,
+  "duration": 144089961,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_launch_Facebook_page()"
 });
 formatter.result({
-  "duration": 1745955571,
+  "duration": 1610225622,
   "status": "passed"
 });
 formatter.match({
   "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
 });
 formatter.result({
-  "duration": 24791031,
+  "duration": 127697535,
   "status": "passed"
 });
 formatter.match({
-  "location": "FacebookStepDef.I_perform_key_actions()"
+  "arguments": [
+    {
+      "val": "\"Email1\"",
+      "offset": 8
+    }
+  ],
+  "location": "FacebookStepDef.i_enter_email_from_spreadsheet(String)"
 });
 formatter.result({
-  "duration": 641894247,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FacebookStepDef.i_select_Day_Option()"
-});
-formatter.result({
-  "duration": 347602367,
-  "status": "passed"
-});
-formatter.match({
-  "location": "FacebookStepDef.i_click_on_Forgotten_Account()"
-});
-formatter.result({
-  "duration": 1582667215,
+  "duration": 1148382454,
   "status": "passed"
 });
 formatter.after({
-  "duration": 718217762,
+  "duration": 705621908,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2560905890,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 53,
+  "name": "Reading from spreadsheet",
+  "description": "",
+  "id": "facebook-login-page;reading-from-spreadsheet;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 43,
+      "name": "@test"
+    }
+  ]
+});
+formatter.step({
+  "line": 45,
+  "name": "As a chrome user",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 46,
+  "name": "I launch Facebook page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "I see the Facebook Home page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "I enter \"Email2\" from spreadsheet",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FacebookStepDef.as_a_chrome_user()"
+});
+formatter.result({
+  "duration": 164212,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_launch_Facebook_page()"
+});
+formatter.result({
+  "duration": 1552733077,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
+});
+formatter.result({
+  "duration": 13705513,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\"Email2\"",
+      "offset": 8
+    }
+  ],
+  "location": "FacebookStepDef.i_enter_email_from_spreadsheet(String)"
+});
+formatter.result({
+  "duration": 429618278,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 658271895,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 2402913360,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 54,
+  "name": "Reading from spreadsheet",
+  "description": "",
+  "id": "facebook-login-page;reading-from-spreadsheet;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 43,
+      "name": "@test"
+    }
+  ]
+});
+formatter.step({
+  "line": 45,
+  "name": "As a chrome user",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 46,
+  "name": "I launch Facebook page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 47,
+  "name": "I see the Facebook Home page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 48,
+  "name": "I enter \"Email3\" from spreadsheet",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FacebookStepDef.as_a_chrome_user()"
+});
+formatter.result({
+  "duration": 195823,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_launch_Facebook_page()"
+});
+formatter.result({
+  "duration": 2106326623,
+  "status": "passed"
+});
+formatter.match({
+  "location": "FacebookStepDef.i_see_the_Facebook_Home_page()"
+});
+formatter.result({
+  "duration": 38082320,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "\"Email3\"",
+      "offset": 8
+    }
+  ],
+  "location": "FacebookStepDef.i_enter_email_from_spreadsheet(String)"
+});
+formatter.result({
+  "duration": 404361297,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 720436671,
   "status": "passed"
 });
 });
